@@ -1,0 +1,55 @@
+// variables
+$main-color:#35424a;
+$secondary-color:#c79403;
+$light-color:#fff;
+$meduim-color:rgb(236, 231, 231);
+$dark-color:#aaaaaa;
+$bg-image:url(../img/showcase.jpeg);
+
+
+// utility classes
+.s-heading{
+    font-size: 25px;
+    color: $light-color;
+
+}
+.m-heading{
+    font-size: 30px;
+    color: $light-color;
+}
+.l-heading{
+    font-size: 50px;
+    color: $light-color;
+}
+.primary-color{
+    color:$secondary-color;
+}
+
+.btn{
+    border: none;
+    padding: 15px 30px;
+    background-color: $secondary-color;
+    color: $light-color;
+    border-radius: 3px;
+    margin: 5px;
+    &:hover{
+        background-color: $dark-color;
+        color: $light-color;
+    }
+}
+.container{
+    width: 1040px;
+    background: $meduim-color;
+    padding: 0 1.5rem;
+    margin: auto;
+    overflow: hidden;
+}
+
+.bg-dark{
+    background-color: $main-color;
+    color: $light-color;
+}
+.bg-light{
+    background-color: $meduim-color;
+    color: #333;
+}

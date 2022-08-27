@@ -1,0 +1,247 @@
+@media (max-width: 896px) {
+    .container{
+        width: 896px;
+        background: $meduim-color;
+        padding: 0 1.5rem;
+        margin: auto;
+        overflow: hidden;
+    }
+    #section-a{
+        padding: 0 30px;
+    }
+}
+@media (max-width: 844px) {
+    .container{
+        width: 844px;
+        background: $meduim-color;
+        padding: 0 1.5rem;
+        margin: auto;
+        overflow: hidden;
+    }
+    #section-a{
+        padding: 0 30px;
+    }
+}
+@media (max-width: 667px) {
+    .container{
+        width: 667px;
+        
+    }
+    #section-a{
+        padding: 0 10px;
+    }
+    #main-header{           
+        h1{
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+        p{
+            margin: 0 10px ;
+        }
+    }
+    #section{
+        &-a{        
+            height: 116px;
+            display: block;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            padding: 0 40px;
+            .form-group{
+                .e-input{
+                    padding: 13px 20px;
+                }
+    
+            }
+    
+        }
+    }
+}
+
+@media (max-width: 500px){
+    .container{
+        width: 425px;
+        background: $meduim-color;
+        padding: 0 1.5rem;
+        margin: auto;
+        overflow: hidden;
+    }
+    .nav-container{
+        background: $main-color;
+        padding:  30px ;
+        
+        display: block;
+        justify-content: center;
+        
+        li{
+            display: block;          
+        }
+    
+    }
+    #main-header{           
+        h1{
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+        p{
+            margin: 0 10px ;
+        }
+    }
+    #section{
+        &-a{        
+            height: 116px;
+            display: block;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            padding: 0 40px;
+            .form-group{
+                .e-input{
+                    padding: 13px 20px;
+                }
+    
+            }
+    
+        }
+    }
+    #section-b{
+        .container{
+            
+            display: flex;
+            flex-direction: column;
+            padding: 20px 10px;
+            div{
+                margin-bottom: 10px;
+            }
+            
+        }
+    }
+    .section-content{
+
+        display: grid;
+        grid-template-areas: "articlea "
+                     "articleb "
+                     "sidebar";
+        grid-gap: 1rem;             
+
+}
+#article-a{grid-area: articlea;}
+#article-b{grid-area: articleb;
+padding: 15px;
+margin-bottom: 5px;}
+#sidebar{grid-area: sidebar;
+    padding: 15px;
+    margin-bottom: 5px;
+}
+#services-content{
+    display: grid;
+    grid-template-areas: "articlea "
+                 "articleb  "
+                 "articlec "
+                 "form";
+}
+    
+   
+}
+@media (max-width: 425px){
+    #section{
+        &-a{        
+            height: 116px;}
+}}
+
+@media (max-width: 400px) {
+    .container{
+        width: 320px;
+        background: $meduim-color;
+        padding: 0 1.5rem;
+        margin: auto;
+        overflow: hidden;
+    }
+    #section{
+        &-a{        
+            height: 126px;
+            display: block;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            padding: 0 10px;
+            h1{font-size: 18px;}
+            .form-group{
+                .e-input{
+                    padding: 13px 20px;
+                }
+    
+            }
+    
+        }
+    }
+}
+@media (max-height: 320px){
+    .container{
+        width: 540px;
+
+    }
+    .nav-container{
+        background: $main-color;
+        padding:  30px ;
+        
+        display: block;
+        justify-content: center;
+        
+        li{
+            display: block;          
+        }
+    
+    }
+    #main-header{           
+        h1{
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+        p{
+            margin: 0 10px ;
+        }
+    }
+    #section{
+        &-a{        
+            height: 116px;
+            display: block;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            padding: 0 40px;
+            .form-group{
+                .e-input{
+                    padding: 13px 20px;
+                }
+    
+            }
+    
+        }
+    }
+    .section-content{
+
+        display: grid;
+        grid-template-areas: "articlea "
+                     "articleb "
+                     "sidebar";
+        grid-gap: 1rem;             
+
+}
+#article-a{grid-area: articlea;}
+#article-b{grid-area: articleb;
+padding: 15px;
+margin-bottom: 5px;}
+#sidebar{grid-area: sidebar;
+    padding: 15px;
+    margin-bottom: 5px;
+}
+#services-content{
+    display: grid;
+    grid-template-areas: "articlea "
+                 "articleb  "
+                 "articlec "
+                 "form";
+}
+    
+}
